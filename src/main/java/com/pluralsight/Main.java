@@ -26,11 +26,12 @@ public class Main {
         c1.phoneOwner = reader.nextLine();
 
 
-        System.out.println("Serial Number: " + c1.serialNumber);
-        System.out.println("Cell Phone Model: " + c1.cellPhoneModel);
-        System.out.println("Phone Carrier: " + c1.phoneCarrier);
-        System.out.println("Phone Number: " + c1.phoneNumber);
-        System.out.println("Phone Owner: " + c1.phoneOwner);
+        System.out.println("Serial Number: " + c1.getSerialNumber() +
+                "\n" + "Cell Phone Model:" + c1.getCellPhoneModel() +
+                "\n" + "Phone Carrier: " + c1.getPhoneCarrier() +
+                "\n" + "Phone number: " + c1.getPhoneNumber() +
+                "\n" + "Phone Owner: " + c1.getPhoneOwner()
+        );
 
     }
 
