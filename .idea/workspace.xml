@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be04b07c-fb4b-4ee5-9335-aeafd49d7295" name="Changes" comment="created a cell phone application">
+    <list default="true" id="be04b07c-fb4b-4ee5-9335-aeafd49d7295" name="Changes" comment="concatenated outputs and used getter methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/CellPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +70,20 @@
       <option name="project" value="LOCAL" />
       <updated>1728079636570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="concatenated outputs and used getter methods">
+      <option name="closed" value="true" />
+      <created>1728082583446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728082583446</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created a cell phone application" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a cell phone application" />
+    <MESSAGE value="concatenated outputs and used getter methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="concatenated outputs and used getter methods" />
   </component>
 </project>

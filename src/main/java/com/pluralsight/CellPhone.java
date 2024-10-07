@@ -11,6 +11,7 @@ public class CellPhone {
 
     // constructor
     public CellPhone(int _serialNumber, String _cellPhoneModel, String _phoneCarrier, String _phoneNumber, String _phoneOwner){
+        System.out.println();
         this.serialNumber = _serialNumber;
         this.cellPhoneModel = _cellPhoneModel;
         this.phoneCarrier = _phoneCarrier;
@@ -18,11 +19,13 @@ public class CellPhone {
         this.phoneOwner = _phoneOwner;
     }
 
-    //empty constructor
-    public CellPhone(){
-
+    public CellPhone() {
+        serialNumber = 0;
+        cellPhoneModel = "";
+        phoneCarrier = "";
+        phoneNumber = "";
+        phoneOwner = "";
     }
-
 
     //setter methods
 
@@ -66,6 +69,19 @@ public class CellPhone {
     public String getPhoneOwner(){
         return this.phoneOwner;
     }
+
+    //added dial method
+    public String dial (String dialPhoneNumber){
+        System.out.println(phoneOwner + "'s phone is calling " + dialPhoneNumber);
+        return dialPhoneNumber;
+    }
+
+     public void getdialPhoneNumber(String dialPhoneNumber) {
+    }
+
+    public void setdialPhoneNumber(String dialPhoneNumber) {
+    }
+
 
 }
 
